@@ -1,0 +1,25 @@
+{
+    "configurations": [
+       
+		{ 
+			"name": "CustomGame Editor Win64 Development", 
+			"intelliSenseMode": "msvc-x64", 
+			"compileCommands": "", 
+			"cStandard": "c17",
+			"cppStandard": "c++17", 
+			"includePath": [ "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\", "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Intermediate\\"], 
+			"defines": [ 
+				"UNICODE", 
+				"_UNICODE", 
+				"__UNREAL__", 
+				"UBT_COMPILED_PLATFORM=Windows", 
+				"WITH_ENGINE=1", 
+				"WITH_UNREAL_DEVELOPER_TOOLS=1", 
+				"WITH_APPLICATION_CORE=1", 
+				"WITH_COREUOBJECT=1" 
+			] 
+		} 
+		
+    ],
+    "version": 4
+}

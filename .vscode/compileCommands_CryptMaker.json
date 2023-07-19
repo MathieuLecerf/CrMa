@@ -1,0 +1,106 @@
+[
+	{
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\CryptMaker.Build.cs",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_CryptMaker\\CryptMaker.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\CryptMaker.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_CryptMaker\\CryptMaker.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\CryptMaker.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_CryptMaker\\CryptMaker.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\CryptMakerCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_CryptMaker\\CryptMaker.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\CryptMakerCharacter.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_CryptMaker\\CryptMaker.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\CryptMakerGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_CryptMaker\\CryptMaker.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\CryptMakerGameMode.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_CryptMaker\\CryptMaker.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\CryptMakerProjectile.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_CryptMaker\\CryptMaker.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\CryptMakerProjectile.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_CryptMaker\\CryptMaker.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\TP_PickUpComponent.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_CryptMaker\\CryptMaker.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\TP_PickUpComponent.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_CryptMaker\\CryptMaker.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\TP_WeaponComponent.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_CryptMaker\\CryptMaker.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\TP_WeaponComponent.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_CryptMaker\\CryptMaker.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	}
+]

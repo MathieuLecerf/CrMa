@@ -2,6 +2,7 @@
 
 
 #include "CryptMaker_MoverComponent.h"
+#include "Math/UnrealMathUtility.h"
 
 // Sets default values for this component's properties
 UCryptMaker_MoverComponent::UCryptMaker_MoverComponent()
@@ -19,7 +20,7 @@ UCryptMaker_MoverComponent::UCryptMaker_MoverComponent()
 void UCryptMaker_MoverComponent::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	OriginalLoc = owner->GetActorLocation();
 	// ...
 	
 }
@@ -30,7 +31,22 @@ void UCryptMaker_MoverComponent::TickComponent(float DeltaTime, ELevelTick TickT
 {
 	
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, owner->GetActorNameOrLabel());
-	// ...
+
+	FVector CurrentLocation = owner->GetActorLocation();
+	FVector TL = MoveToLocation+OriginalLoc;
+	float speed = FVector::Distance(MoveToLocation,OriginalLoc)/time;
+	FVector NewLoc;
+
+	if(MoveNow)
+	{
+		NewLoc = FMath::VInterpConstantTo(CurrentLocation,TL,DeltaTime,speed);
+		owner->SetActorLocation(NewLoc);
+	}
+	else
+	{
+		NewLoc = FMath::VInterpConstantTo(CurrentLocation,OriginalLoc,DeltaTime,speed);
+		owner->SetActorLocation(NewLoc);
+	}
+	
 }
 

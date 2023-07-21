@@ -25,6 +25,6 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 private:
 	UPROPERTY(EditAnywhere)
-	float maxGrabDistance = 400;
+	float maxGrabDistance = 200;
 		
 };

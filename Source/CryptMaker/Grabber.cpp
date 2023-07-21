@@ -30,10 +30,16 @@ void UGrabber::BeginPlay()
 void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	FString StringRotation = GetComponentRotation().ToCompactString();
 	FVector Start = GetComponentLocation();
 	FVector End = GetForwardVector()*maxGrabDistance;
 	DrawDebugLine(GetWorld(),Start,End,FColor::Red);
+	FCollisionShape Sp = FCollisionShape::MakeSphere(maxGrabDistance);
+	FHitResult HitRes;
+	bool hashit = GetWorld()->SweepSingleByChannel(HitRes,Start,End,FQuat::Identity,ECC_GameTraceChannel2,Sp);
+	if(hashit)
+	{
+		UE_LOG(LogTemp,Warning,TEXT("Actor is: %s"), *HitRes.GetActor()->GetActorNameOrLabel());
+	}
 	// ...
 }
 

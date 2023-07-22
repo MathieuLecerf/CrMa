@@ -7,7 +7,7 @@
 			"compileCommands": "", 
 			"cStandard": "c17",
 			"cppStandard": "c++17", 
-			"includePath": [ "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\", "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Intermediate\\"], 
+			"includePath": [ "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Source\\", "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Intermediate\\"], 
 			"defines": [ 
 				"UNICODE", 
 				"_UNICODE", 

@@ -26,5 +26,12 @@ public:
 private:
 	UPROPERTY(EditAnywhere)
 	float maxGrabDistance = 200;
+	UPROPERTY(EditAnywhere)
+    class UInputMappingContext* GrabMapping;
+	UPROPERTY(EditAnywhere)
+	class UInputAction* GrabAction;
+	ACharacter* Character;
+
+	void Grab();
 		
 };

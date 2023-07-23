@@ -1,22 +1,23 @@
 {
-	"configurations": [
-		{
-			"name": "CryptMakerEditor Editor Win64 Development (CryptMaker)",
-			"compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"cStandard": "c17",
-			"cppStandard": "c++17",
-			"intelliSenseMode": "msvc-x64",
-			"configurationProvider": "epic.ue",
-			"compileCommands": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_CryptMaker.json"
-		},
-		{
-			"name": "Win32",
-			"compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"cStandard": "c17",
-			"cppStandard": "c++17",
-			"intelliSenseMode": "msvc-x64",
-			"configurationProvider": "epic.ue",
-			"compileCommands": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_Default.json"
-		}
-	]
+    "configurations": [
+        {
+            "name": "CryptMakerEditor Editor Win64 Development (CryptMaker)",
+            "compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64",
+            "configurationProvider": "epic.ue",
+            "compileCommands": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_CryptMaker.json"
+        },
+        {
+            "name": "Win32",
+            "compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64",
+            "configurationProvider": "epic.ue",
+            "compileCommands": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_Default.json"
+        }
+    ],
+    "version": 4
 }

@@ -33,5 +33,6 @@ private:
 	ACharacter* Character;
 
 	void Grab();
-		
+	void Release();
+	class UPhysicsHandleComponent* PHand;
 };

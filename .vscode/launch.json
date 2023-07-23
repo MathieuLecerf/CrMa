@@ -4,7 +4,7 @@
 		{
 			"name": "Launch CryptMaker (Debug)",
 			"request": "launch",
-			"program": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"program": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Binaries\\Win64\\CryptMaker-Win64-Debug.exe",
 			"preLaunchTask": "CryptMaker Win64 Debug Build",
 			"args": [
 			],
@@ -20,7 +20,7 @@
 		{
 			"name": "Launch CryptMaker (DebugGame)",
 			"request": "launch",
-			"program": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"program": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Binaries\\Win64\\CryptMaker-Win64-DebugGame.exe",
 			"preLaunchTask": "CryptMaker Win64 DebugGame Build",
 			"args": [
 			],
@@ -36,7 +36,7 @@
 		{
 			"name": "Launch CryptMaker (Development)",
 			"request": "launch",
-			"program": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Binaries\\Win64\\UnrealGame.exe",
+			"program": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Binaries\\Win64\\CryptMaker.exe",
 			"preLaunchTask": "CryptMaker Win64 Development Build",
 			"args": [
 			],

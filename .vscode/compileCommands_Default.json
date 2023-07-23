@@ -1,105 +1,153 @@
 [
 	{
-		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\CryptMaker.Build.cs",
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Source\\CryptMaker\\CryptMaker.Build.cs",
 		"arguments": [
 			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\CryptMaker.cpp",
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Source\\CryptMaker\\CryptMaker.cpp",
 		"arguments": [
 			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\CryptMaker.h",
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Source\\CryptMaker\\CryptMaker.h",
 		"arguments": [
 			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\CryptMakerCharacter.cpp",
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Source\\CryptMaker\\CryptMakerCharacter.cpp",
 		"arguments": [
 			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\CryptMakerCharacter.h",
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Source\\CryptMaker\\CryptMakerCharacter.h",
 		"arguments": [
 			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\CryptMakerGameMode.cpp",
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Source\\CryptMaker\\CryptMakerGameMode.cpp",
 		"arguments": [
 			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\CryptMakerGameMode.h",
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Source\\CryptMaker\\CryptMakerGameMode.h",
 		"arguments": [
 			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\CryptMakerProjectile.cpp",
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Source\\CryptMaker\\CryptMakerProjectile.cpp",
 		"arguments": [
 			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\CryptMakerProjectile.h",
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Source\\CryptMaker\\CryptMakerProjectile.h",
 		"arguments": [
 			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\TP_PickUpComponent.cpp",
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Source\\CryptMaker\\CryptMaker_MoverComponent.cpp",
 		"arguments": [
 			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\TP_PickUpComponent.h",
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Source\\CryptMaker\\CryptMaker_MoverComponent.h",
 		"arguments": [
 			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\TP_WeaponComponent.cpp",
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Source\\CryptMaker\\Grabber.cpp",
 		"arguments": [
 			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\Source\\CryptMaker\\TP_WeaponComponent.h",
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Source\\CryptMaker\\Grabber.h",
 		"arguments": [
 			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CryptMaker\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Source\\CryptMaker\\MoveableActor.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Source\\CryptMaker\\MoveableActor.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Source\\CryptMaker\\TP_PickUpComponent.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Source\\CryptMaker\\TP_PickUpComponent.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Source\\CryptMaker\\TP_WeaponComponent.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\Source\\CryptMaker\\TP_WeaponComponent.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\MarkD\\OneDrive\\Documents\\Unreal Projects\\CrMa\\.vscode\\compileCommands_Default\\CryptMaker.261.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
 	}

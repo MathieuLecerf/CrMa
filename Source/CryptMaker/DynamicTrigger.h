@@ -19,5 +19,5 @@ class CRYPTMAKER_API UDynamicTrigger : public UBoxComponent
 		virtual void BeginPlay()override;
 
 	public:
-		virtual void TickComponent(float DeltaTime,ELevel TickType,FActorComponentTickFunction* ThisTickFunction)override;
+		virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 };

@@ -10,7 +10,7 @@ void UDynamicTrigger::BeginPlay()
 }
 
 
-void UDynamicTrigger::TickComponent(float DeltaTime,ELevel TickType,FActorComponentTickFunction* ThisTickFunction)
+void UDynamicTrigger::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
     Super::TickComponent(DeltaTime,TickType, ThisTickFunction);
 }

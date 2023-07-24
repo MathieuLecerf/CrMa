@@ -27,7 +27,7 @@ void UDynamicTrigger::TickComponent(float DeltaTime, ELevelTick TickType, FActor
         UE_LOG(LogTemp,Warning,TEXT("unlock"));
         Mover->ShouldMove(true);
     }
-    else
+    else if(MoveBack)
     {
         UE_LOG(LogTemp,Warning,TEXT("relock"));
         Mover->ShouldMove(false);

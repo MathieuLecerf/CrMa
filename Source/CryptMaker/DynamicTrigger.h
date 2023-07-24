@@ -19,6 +19,10 @@ class CRYPTMAKER_API UDynamicTrigger : public UBoxComponent
 	protected:
 		virtual void BeginPlay()override;
 		AActor* GetAcceptableActor()const;
+		class UCryptMaker_MoverComponent* Mover;
 	public:
 		virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+		UFUNCTION(BlueprintCallable)
+		void SetMover(AActor* NewMover);
+		
 };

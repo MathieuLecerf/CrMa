@@ -2,6 +2,7 @@
 
 
 #include "DynamicTrigger.h"
+#include "CryptMaker_MoverComponent.h"
 
 
 UDynamicTrigger::UDynamicTrigger()
@@ -12,14 +13,30 @@ UDynamicTrigger::UDynamicTrigger()
 void UDynamicTrigger::BeginPlay()
 {
     Super::BeginPlay();
+    Mover = GetOwner()->FindComponentByClass<UCryptMaker_MoverComponent>();
 }
 
 
 void UDynamicTrigger::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
     Super::TickComponent(DeltaTime,TickType, ThisTickFunction);
+
+    if(Mover==nullptr)return;
     if(GetAcceptableActor()!=nullptr)
-    UE_LOG(LogTemp,Warning,TEXT("unlock"));
+    {
+        UE_LOG(LogTemp,Warning,TEXT("unlock"));
+        Mover->ShouldMove(true);
+    }
+    else
+    {
+        UE_LOG(LogTemp,Warning,TEXT("relock"));
+        Mover->ShouldMove(false);
+    }
+}
+
+void UDynamicTrigger::SetMover(AActor* NewMover)
+{
+    
 }
 
 AActor* UDynamicTrigger::GetAcceptableActor()const

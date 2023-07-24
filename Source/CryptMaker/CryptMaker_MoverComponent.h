@@ -21,6 +21,8 @@ protected:
 	virtual void BeginPlay() override;
 	UPROPERTY(VisibleAnywhere)
 	AActor* owner;
+	
+	bool MoveNow= false;
 
 public:	
 	// Called every frame
@@ -29,9 +31,7 @@ public:
 	FVector MoveToLocation;
 	UPROPERTY(EditAnywhere)
 	float time= 4.0f;
-	UPROPERTY(EditAnywhere)
-	bool MoveNow= false;
-
+	void ShouldMove(bool move);
 	FVector OriginalLoc;
 		
 };

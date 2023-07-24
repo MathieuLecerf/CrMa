@@ -36,7 +36,6 @@ void UCryptMaker_MoverComponent::TickComponent(float DeltaTime, ELevelTick TickT
 	FVector TL = MoveToLocation+OriginalLoc;
 	float speed = FVector::Distance(MoveToLocation,OriginalLoc)/time;
 	FVector NewLoc;
-
 	if(MoveNow)
 	{
 		NewLoc = FMath::VInterpConstantTo(CurrentLocation,TL,DeltaTime,speed);
@@ -48,5 +47,10 @@ void UCryptMaker_MoverComponent::TickComponent(float DeltaTime, ELevelTick TickT
 		owner->SetActorLocation(NewLoc);
 	}
 	
+}
+
+void UCryptMaker_MoverComponent::ShouldMove(bool move)
+{
+	MoveNow = move;
 }
 

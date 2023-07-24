@@ -25,7 +25,7 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 private:
 	UPROPERTY(EditAnywhere)
-	float maxGrabDistance = 200;
+	float maxGrabDistance = 400;
 	UPROPERTY(EditAnywhere)
     class UInputMappingContext* GrabMapping;
 	UPROPERTY(EditAnywhere)
@@ -34,5 +34,6 @@ private:
 
 	void Grab();
 	void Release();
+	void GetGrabby(FHitResult& hr, bool& hh);
 	class UPhysicsHandleComponent* PHand;
 };

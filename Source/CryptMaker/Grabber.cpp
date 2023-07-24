@@ -37,7 +37,7 @@ void UGrabber::BeginPlay()
 
 		if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerController->InputComponent))
 		{
-			EnhancedInputComponent->BindAction(GrabAction, ETriggerEvent::Triggered, this, &UGrabber::Grab);
+			EnhancedInputComponent->BindAction(GrabAction, ETriggerEvent::Started, this, &UGrabber::Grab);
 			
 			EnhancedInputComponent->BindAction(GrabAction, ETriggerEvent::Completed, this, &UGrabber::Release);
 		}
@@ -59,24 +59,22 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 
 void UGrabber::Grab()
 {
-	FVector Start = GetComponentLocation();
-	FVector End = Start+GetForwardVector()*maxGrabDistance;
-	DrawDebugLine(GetWorld(),Start,End,FColor::Red);
-	FCollisionShape Sp = FCollisionShape::MakeSphere(25);
-	FHitResult HitRes;
-	bool hashit = GetWorld()->SweepSingleByChannel(HitRes,Start,End,FQuat::Identity,ECC_GameTraceChannel2,Sp);
 	
+	FHitResult HitRes;
+	bool hashit;
+	GetGrabby(HitRes,hashit);
+
 	if(hashit)
 	{
+		UPrimitiveComponent* primcomp = HitRes.GetComponent();
+		primcomp->WakeAllRigidBodies();
 		if(PHand==nullptr)return;
-			UE_LOG(LogTemp,Warning,TEXT("Actor is: %s"), *HitRes.GetActor()->GetActorNameOrLabel());
-			PHand->GrabComponentAtLocationWithRotation
-			(HitRes.GetComponent(),
-			NAME_None,
-			HitRes.ImpactPoint,
-			HitRes.GetComponent()->GetComponentRotation());
-			DrawDebugSphere(GetWorld(),End,10,10, FColor::Blue,false,5);
-		
+		UE_LOG(LogTemp,Warning,TEXT("Actor is: %s"), *HitRes.GetActor()->GetActorNameOrLabel());
+		PHand->GrabComponentAtLocationWithRotation
+		(primcomp,
+		NAME_None,
+		HitRes.ImpactPoint,
+		GetComponentRotation());
 	}
 	else
 	{
@@ -90,4 +88,13 @@ void UGrabber::Release()
 	UE_LOG(LogTemp,Warning,TEXT("Release"));
 	if(PHand==nullptr)return;
 	PHand->ReleaseComponent();
+}
+
+void UGrabber::GetGrabby(FHitResult& hr, bool& hh)
+{
+	FVector Start = GetComponentLocation();
+	FVector End = Start+GetForwardVector()*maxGrabDistance;
+	DrawDebugLine(GetWorld(),Start,End,FColor::Red);
+	FCollisionShape Sp = FCollisionShape::MakeSphere(50);
+	hh= GetWorld()->SweepSingleByChannel(hr,Start,End,FQuat::Identity,ECC_GameTraceChannel2,Sp);
 }

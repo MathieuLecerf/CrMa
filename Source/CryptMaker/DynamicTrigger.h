@@ -14,10 +14,11 @@ class CRYPTMAKER_API UDynamicTrigger : public UBoxComponent
 {
 	GENERATED_BODY()
 	
-
+	public: 
+	UDynamicTrigger();
 	protected:
 		virtual void BeginPlay()override;
-
+		AActor* GetAcceptableActor()const;
 	public:
 		virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 };

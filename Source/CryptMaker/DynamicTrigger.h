@@ -22,6 +22,8 @@ class CRYPTMAKER_API UDynamicTrigger : public UBoxComponent
 		class UCryptMaker_MoverComponent* Mover;
 		UPROPERTY(EditAnywhere)
 		bool MoveBack=true;
+		UPROPERTY(EditAnywhere)
+		AActor* ac;
 
 	public:
 		virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;

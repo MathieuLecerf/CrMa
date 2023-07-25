@@ -13,7 +13,7 @@ UDynamicTrigger::UDynamicTrigger()
 void UDynamicTrigger::BeginPlay()
 {
     Super::BeginPlay();
-    Mover = GetOwner()->FindComponentByClass<UCryptMaker_MoverComponent>();
+    SetMover(ac);
 }
 
 
@@ -34,9 +34,12 @@ void UDynamicTrigger::TickComponent(float DeltaTime, ELevelTick TickType, FActor
     }
 }
 
-void UDynamicTrigger::SetMover(AActor* NewMover)
+void UDynamicTrigger::SetMover(AActor* NewMover=nullptr)
 {
-    
+    if(NewMover == nullptr)
+    Mover = GetOwner()->FindComponentByClass<UCryptMaker_MoverComponent>();
+    else
+    Mover = NewMover->FindComponentByClass<UCryptMaker_MoverComponent>();
 }
 
 AActor* UDynamicTrigger::GetAcceptableActor()const

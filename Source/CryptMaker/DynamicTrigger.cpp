@@ -50,7 +50,7 @@ AActor* UDynamicTrigger::GetAcceptableActor()const
      {
         for(AActor* g : A)
         {
-            if(g->ActorHasTag("UN"))
+            if(g->ActorHasTag("UN")&& !g->ActorHasTag("Grabbed"))
             return g;
         }
      }

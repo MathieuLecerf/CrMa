@@ -67,6 +67,8 @@ void UGrabber::Grab()
 	if(hashit)
 	{
 		UPrimitiveComponent* primcomp = HitRes.GetComponent();
+		held=HitRes.GetActor();
+		held->Tags.Add("Grabbed");
 		primcomp->WakeAllRigidBodies();
 		if(PHand==nullptr)return;
 		UE_LOG(LogTemp,Warning,TEXT("Actor is: %s"), *HitRes.GetActor()->GetActorNameOrLabel());
@@ -87,6 +89,7 @@ void UGrabber::Release()
 {
 	UE_LOG(LogTemp,Warning,TEXT("Release"));
 	if(PHand==nullptr)return;
+	held->Tags.Remove("Grabbed");
 	PHand->ReleaseComponent();
 }
 

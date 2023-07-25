@@ -31,6 +31,7 @@ private:
 	UPROPERTY(EditAnywhere)
 	class UInputAction* GrabAction;
 	ACharacter* Character;
+	AActor* held;
 
 	void Grab();
 	void Release();
